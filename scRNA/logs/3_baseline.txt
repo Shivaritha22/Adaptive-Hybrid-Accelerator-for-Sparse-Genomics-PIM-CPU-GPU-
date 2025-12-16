@@ -1,0 +1,9 @@
+rows_X: 38606, cols_X: 6704, nnz_X: 14971913
+disk to memory time: X load: 624.142ms
+rows_W: 6704, cols_W: 32
+disk to memory time: W load: 3.314ms
+spmm compute time: 50.086ms
+spmm nnz: 14971913
+spmm flops: 958202432.000
+spmm bytes: 130670980.000
+spmm performance: 19.13 GFLOP/s, 2.61 GB/s

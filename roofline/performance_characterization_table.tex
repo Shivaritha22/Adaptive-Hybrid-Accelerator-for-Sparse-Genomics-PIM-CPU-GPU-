@@ -1,0 +1,68 @@
+% Performance Characterization Table - LaTeX Format
+% Use with \usepackage{booktabs} and \usepackage{multirow}
+
+\begin{table*}[t]
+\centering
+\caption{Performance Characterization Study: All 4 Datasets}
+\label{tab:performance_char}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Metric} & \textbf{Dataset 1} & \textbf{Dataset 2} & \textbf{Dataset 3} & \textbf{Dataset 4} \\
+ & \textbf{(File 2)} & \textbf{(File 3)} & \textbf{(File 4)} & \textbf{(File 5)} \\
+\midrule
+\multicolumn{5}{l}{\textit{Baseline Performance}} \\
+\midrule
+Compute Time (ms) & 91.6 & 50.1 & 137.9 & 53.6 \\
+Input NNZ (M) & 26.4 & 15.0 & 24.5 & 16.0 \\
+Input Rows & 33,696 & 38,606 & 134,920 & 36,706 \\
+Performance (GFLOP/s) & 18.46 & 19.13 & 11.37 & 19.15 \\
+Performance (GB/s) & 2.42 & 2.61 & 1.68 & 2.58 \\
+\midrule
+\multicolumn{5}{l}{\textit{PIM Filtering (tilepredpermspmm)}} \\
+\midrule
+Compute Time (ms) & 2,069.8 & 1,235.9 & 370.9 & 659.8 \\
+Speedup vs Baseline & 0.04x & 0.04x & 0.37x & 0.08x \\
+ & (22.6x slower) & (24.7x slower) & (2.7x slower) & (12.3x slower) \\
+Input NNZ (M) & 13.5 & 8.7 & 3.4 & 8.7 \\
+NNZ Reduction (\%) & 49\% & 42\% & 86\% & 46\% \\
+Input Rows & 3,370 & 3,861 & 3,660 & 3,660 \\
+Row Reduction (\%) & 90\% & 90\% & 97\% & 90\% \\
+Total Tiles & 7,685 & 6,405 & 2,494 & 2,726 \\
+Dense Tiles & 7,685 (100\%) & 6,405 (100\%) & 2,494 (100\%) & 2,726 (100\%) \\
+Sparse Tiles & 0 (0\%) & 0 (0\%) & 0 (0\%) & 0 (0\%) \\
+Matrix Density & 0.431 & 0.335 & 0.339 & 0.799 \\
+Performance (GFLOP/s) & 0.42 & 0.45 & 0.58 & 0.84 \\
+Performance (GB/s) & 0.14 & 0.18 & 0.24 & 0.21 \\
+\midrule
+\multicolumn{5}{l}{\textit{E2E (No Filtering)}} \\
+\midrule
+Compute Time (ms) & 1,166.4 & 575.0 & 722.7 & 289.0 \\
+Speedup vs Baseline & 0.08x & 0.09x & 0.19x & 0.19x \\
+ & (12.7x slower) & (11.5x slower) & (5.2x slower) & (5.4x slower) \\
+Total Tiles & 76,415 & 63,420 & 90,687 & 26,978 \\
+Performance (GFLOP/s) & 1.45 & 1.67 & 2.17 & 3.55 \\
+Performance (GB/s) & 0.19 & 0.23 & 0.32 & 0.48 \\
+\midrule
+\multicolumn{5}{l}{\textit{Filtering Benefit}} \\
+\midrule
+tilepredpermspmm vs e2e & 0.56x & 0.47x & 1.95x & 0.44x \\
+ & (1.8x slower) & (2.1x slower) & (1.9x faster) & (2.3x slower) \\
+\midrule
+\multicolumn{5}{l}{\textit{Key Characteristics}} \\
+\midrule
+Primary Bottleneck & High tile count & High tile count & Moderate tile & Moderate tile \\
+ & + all dense & + all dense & count + all & count + high \\
+ & tiles & tiles & dense tiles & density \\
+Filtering Effectiveness & Moderate & Moderate & High & Moderate \\
+ & (49\% nnz) & (42\% nnz) & (86\% nnz) & (46\% nnz) \\
+Tiling Overhead & Very High & High & Moderate & Moderate \\
+ & (7,685) & (6,405) & (2,494) & (2,726) \\
+Workload Type & All dense & All dense & All dense & All dense \\
+ & tiles & tiles & tiles & (high density) \\
+Performance Regime & Memory-bound & Memory-bound & Memory-bound & Memory-bound \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+

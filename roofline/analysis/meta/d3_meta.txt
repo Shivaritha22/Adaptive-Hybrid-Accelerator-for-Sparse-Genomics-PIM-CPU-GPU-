@@ -1,0 +1,9 @@
+noise gene: 2962
+rare gene: 3861
+common housekeep: 0
+
+variance min: 0.000000
+variance max: 42613.554688
+variance mean: 16.188480
+genes with zero variance: 8989
+unique variance values: 26236

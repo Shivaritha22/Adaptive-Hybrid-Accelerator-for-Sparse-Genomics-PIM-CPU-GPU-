@@ -1,0 +1,78 @@
+
+============================================================
+Annotation Analysis - y2
+Timestamp: 2025-11-29 14:27:35
+============================================================
+
+============================================================
+Comparing y2
+============================================================
+ERROR: Filtered file for y2 not found in C:\Users\shiva\Documents\VScode projects\PIM\filtered
+
+Skipping meta file (only available for 'd' annotations)
+
+============================================================
+Comparing H5 files for y2
+============================================================
+INFO: Filtered H5 file y2_pim.h5 not found
+
+============================================================
+Analysis completed at 2025-11-29 14:27:35
+============================================================
+
+============================================================
+Annotation Analysis - y2
+Timestamp: 2025-11-29 14:34:36
+============================================================
+
+============================================================
+Comparing y2
+============================================================
+Original file: C:\Users\shiva\Documents\VScode projects\PIM\original\Y\y2.h5
+Filtered file: C:\Users\shiva\Documents\VScode projects\PIM\filtered\Y\y2.h5
+
+File Size Comparison:
+  Original file size: 4,315,136 bytes (4214.00 KB)
+  Filtered file size: 433,408 bytes (423.25 KB)
+  Size reduction: 3,881,728 bytes (3790.75 KB, 89.96%)
+
+Data Reduction:
+  Data points reduced: 970,432
+  Data size reduced: 3,881,728 bytes (3790.75 KB)
+  Reduction ratio: 0.1000 (10.00% of original)
+  Reduction percentage: 90.00%
+
+Data Movement Reduction:
+  Total absolute difference: 0.0000
+  Average absolute difference per element: 0.000000
+
+Skipping meta file (only available for 'd' annotations)
+
+============================================================
+Comparing H5 files for y2
+============================================================
+
+Analyzing: C:\Users\shiva\Documents\VScode projects\PIM\original\Y\y2.h5
+Comparing with: C:\Users\shiva\Documents\VScode projects\PIM\filtered\Y\y2.h5
+
+File Size Comparison:
+  Original size: 4,315,136 bytes (4214.00 KB)
+  Filtered size: 433,408 bytes (423.25 KB)
+  Size reduction: 3,881,728 bytes (3790.75 KB, 89.96%)
+
+Data Reduction:
+  Data points reduced: 970,432
+  Data size reduced: 3,881,728 bytes (3790.75 KB)
+  Reduction ratio: 0.1000 (10.00% of original)
+  Reduction percentage: 90.00%
+
+Data Movement Reduction:
+  Total absolute difference: 0.0000
+  Average absolute difference per element: 0.000000
+
+Dataset Comparison:
+  Y: (33696, 32) -> (3370, 32), reduction: 970,432 (10.00%)
+
+============================================================
+Analysis completed at 2025-11-29 14:34:36
+============================================================

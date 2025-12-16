@@ -1,0 +1,35 @@
+Metric,Dataset 1 (File 2),Dataset 2 (File 3),Dataset 3 (File 4),Dataset 4 (File 5)
+Baseline - Compute Time (ms),91.6,50.1,137.9,53.6
+Baseline - Input NNZ (M),26.4,15.0,24.5,16.0
+Baseline - Input Rows,33696,38606,134920,36706
+Baseline - Performance (GFLOP/s),18.46,19.13,11.37,19.15
+Baseline - Performance (GB/s),2.42,2.61,1.68,2.58
+PIM Filtering - Compute Time (ms),2069.8,1235.9,370.9,659.8
+PIM Filtering - Speedup vs Baseline,0.04,0.04,0.37,0.08
+PIM Filtering - Speedup Factor (x slower),22.6,24.7,2.7,12.3
+PIM Filtering - Input NNZ (M),13.5,8.7,3.4,8.7
+PIM Filtering - NNZ Reduction (%),49,42,86,46
+PIM Filtering - Input Rows,3370,3861,3660,3660
+PIM Filtering - Row Reduction (%),90,90,97,90
+PIM Filtering - Total Tiles,7685,6405,2494,2726
+PIM Filtering - Dense Tiles,7685,6405,2494,2726
+PIM Filtering - Dense Tiles (%),100,100,100,100
+PIM Filtering - Sparse Tiles,0,0,0,0
+PIM Filtering - Sparse Tiles (%),0,0,0,0
+PIM Filtering - Matrix Density,0.431,0.335,0.339,0.799
+PIM Filtering - Performance (GFLOP/s),0.42,0.45,0.58,0.84
+PIM Filtering - Performance (GB/s),0.14,0.18,0.24,0.21
+E2E - Compute Time (ms),1166.4,575.0,722.7,289.0
+E2E - Speedup vs Baseline,0.08,0.09,0.19,0.19
+E2E - Speedup Factor (x slower),12.7,11.5,5.2,5.4
+E2E - Total Tiles,76415,63420,90687,26978
+E2E - Performance (GFLOP/s),1.45,1.67,2.17,3.55
+E2E - Performance (GB/s),0.19,0.23,0.32,0.48
+Filtering Benefit - tilepredpermspmm vs e2e (speedup),0.56,0.47,1.95,0.44
+Filtering Benefit - tilepredpermspmm vs e2e (factor),1.8x slower,2.1x slower,1.9x faster,2.3x slower
+Key Characteristics - Primary Bottleneck,High tile count + all dense tiles,High tile count + all dense tiles,Moderate tile count + all dense tiles,Moderate tile count + high density
+Key Characteristics - Filtering Effectiveness,Moderate (49% nnz reduction),Moderate (42% nnz reduction),High (86% nnz reduction),Moderate (46% nnz reduction)
+Key Characteristics - Tiling Overhead,Very High (7685 tiles),High (6405 tiles),Moderate (2494 tiles),Moderate (2726 tiles)
+Key Characteristics - Workload Type,All dense tiles,All dense tiles,All dense tiles,All dense tiles (high density)
+Key Characteristics - Performance Regime,Memory-bound,Memory-bound,Memory-bound,Memory-bound
+

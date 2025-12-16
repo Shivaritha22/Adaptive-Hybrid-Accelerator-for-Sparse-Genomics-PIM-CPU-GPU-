@@ -1,0 +1,57 @@
+
+============================================================
+Annotation Analysis - y3
+Timestamp: 2025-11-29 14:34:46
+============================================================
+
+============================================================
+Comparing y3
+============================================================
+Original file: C:\Users\shiva\Documents\VScode projects\PIM\original\Y\y3.h5
+Filtered file: C:\Users\shiva\Documents\VScode projects\PIM\filtered\Y\y3.h5
+
+File Size Comparison:
+  Original file size: 4,943,616 bytes (4827.75 KB)
+  Filtered file size: 496,256 bytes (484.62 KB)
+  Size reduction: 4,447,360 bytes (4343.12 KB, 89.96%)
+
+Data Reduction:
+  Data points reduced: 1,111,840
+  Data size reduced: 4,447,360 bytes (4343.12 KB)
+  Reduction ratio: 0.1000 (10.00% of original)
+  Reduction percentage: 90.00%
+
+Data Movement Reduction:
+  Total absolute difference: 0.0000
+  Average absolute difference per element: 0.000000
+
+Skipping meta file (only available for 'd' annotations)
+
+============================================================
+Comparing H5 files for y3
+============================================================
+
+Analyzing: C:\Users\shiva\Documents\VScode projects\PIM\original\Y\y3.h5
+Comparing with: C:\Users\shiva\Documents\VScode projects\PIM\filtered\Y\y3.h5
+
+File Size Comparison:
+  Original size: 4,943,616 bytes (4827.75 KB)
+  Filtered size: 496,256 bytes (484.62 KB)
+  Size reduction: 4,447,360 bytes (4343.12 KB, 89.96%)
+
+Data Reduction:
+  Data points reduced: 1,111,840
+  Data size reduced: 4,447,360 bytes (4343.12 KB)
+  Reduction ratio: 0.1000 (10.00% of original)
+  Reduction percentage: 90.00%
+
+Data Movement Reduction:
+  Total absolute difference: 0.0000
+  Average absolute difference per element: 0.000000
+
+Dataset Comparison:
+  Y: (38606, 32) -> (3861, 32), reduction: 1,111,840 (10.00%)
+
+============================================================
+Analysis completed at 2025-11-29 14:34:46
+============================================================

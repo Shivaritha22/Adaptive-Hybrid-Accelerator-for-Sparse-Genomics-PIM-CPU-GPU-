@@ -1,0 +1,13 @@
+rows_X: 3370, cols_X: 9263, nnz_X: 13469787
+disk to memory time: X load: 91.473ms
+rows_W: 9263, cols_W: 32
+disk to memory time: W load: 0.903ms
+tile: 7685
+dense_tiles: 7685, sparse_tiles: 0
+OpenMP threads: 16
+matrix_density: 0.431498
+spmm compute time: 2069.807ms
+spmm nnz: 13469787
+spmm flops: 862066368.000
+spmm bytes: 297678228.000
+spmm performance: 0.42 GFLOP/s, 0.14 GB/s

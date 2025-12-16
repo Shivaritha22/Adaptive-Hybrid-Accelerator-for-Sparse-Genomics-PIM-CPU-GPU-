@@ -1,0 +1,108 @@
+
+============================================================
+Annotation Analysis - d3
+Timestamp: 2025-11-28 19:41:28
+============================================================
+
+============================================================
+Comparing d3
+============================================================
+Original file: C:\Users\shiva\Documents\VScode projects\PIM\original\X\d3.h5
+Filtered file: C:\Users\shiva\Documents\VScode projects\PIM\filtered\X\d3_pim.h5
+
+File Size Comparison:
+  Original file size: 22,357,444 bytes (21833.44 KB)
+  Filtered file size: 70,384,392 bytes (68734.76 KB)
+  Size reduction: -48,026,948 bytes (-46901.32 KB, -214.81%)
+
+Data Reduction:
+  Data points reduced: 12,768,074
+  Data size reduced: 112,459,054 bytes (109823.29 KB)
+  Reduction ratio: 0.5760 (57.60% of original)
+  Reduction percentage: 42.40%
+
+============================================================
+Reading Meta File for annotation 3
+============================================================
+Meta file: C:\Users\shiva\Documents\VScode projects\PIM\analysis\d3_meta.txt
+
+Rare Gene Information:
+  Rare genes retained: 3,861
+  Noise genes: 2,962
+  Housekeeping genes: 0
+
+Variance Statistics:
+  Min variance: 0.000000
+  Max variance: 42613.554688
+  Mean variance: 16.188480
+  Genes with zero variance: 8,989
+  Unique variance values: 26,236
+
+============================================================
+Comparing H5 files for d3
+============================================================
+
+Analyzing: C:\Users\shiva\Documents\VScode projects\PIM\original\X\d3.h5
+Comparing with: C:\Users\shiva\Documents\VScode projects\PIM\filtered\X\d3_pim.h5
+
+File Size Comparison:
+  Original size: 22,357,444 bytes (21833.44 KB)
+  Filtered size: 70,384,392 bytes (68734.76 KB)
+  Size reduction: -48,026,948 bytes (-46901.32 KB, -214.81%)
+
+Data Reduction:
+  Data points reduced: 12,768,074
+  Data size reduced: 112,459,054 bytes (109823.29 KB)
+  Reduction ratio: 0.5760 (57.60% of original)
+  Reduction percentage: 42.40%
+
+Dataset Comparison:
+  matrix/indptr: (6705,) -> (3862,), reduction: 2,843 (57.60%)
+  matrix/features/feature_type: (38606,) -> (3861,), reduction: 34,745 (10.00%)
+  matrix/features/id: (38606,) -> (3861,), reduction: 34,745 (10.00%)
+  matrix/shape: (2,) -> (2,), reduction: 0 (100.00%)
+  matrix/barcodes: (6704,) -> (6704,), reduction: 0 (100.00%)
+  matrix/features/name: (38606,) -> (3861,), reduction: 34,745 (10.00%)
+  matrix/data: (14971913,) -> (8658788,), reduction: 6,313,125 (57.83%)
+  matrix/indices: (14971913,) -> (8658788,), reduction: 6,313,125 (57.83%)
+  matrix/features/genome: (38606,) -> (3861,), reduction: 34,745 (10.00%)
+
+============================================================
+Analysis completed at 2025-11-28 19:41:28
+============================================================
+
+============================================================
+Annotation Analysis - d3
+Timestamp: 2025-11-29 14:25:08
+============================================================
+
+============================================================
+Comparing d3
+============================================================
+ERROR: Filtered file for d3 not found in C:\Users\shiva\Documents\VScode projects\PIM\filtered
+
+============================================================
+Reading Meta File for annotation 3
+============================================================
+Meta file: C:\Users\shiva\Documents\VScode projects\PIM\analysis\d3_meta.txt
+
+Rare Gene Information:
+  Rare genes retained: 3,861
+  Noise genes: 2,962
+  Housekeeping genes: 0
+
+Variance Statistics:
+  Min variance: 0.000000
+  Max variance: 42613.554688
+  Mean variance: 16.188480
+  Genes with zero variance: 8,989
+  Unique variance values: 26,236
+
+============================================================
+Comparing H5 files for d3
+============================================================
+INFO: Filtered H5 file d3_pim.h5 not found
+
+============================================================
+Analysis completed at 2025-11-29 14:25:08
+============================================================

@@ -1,0 +1,95 @@
+
+============================================================
+Annotation Analysis - d4
+Timestamp: 2025-11-28 19:41:32
+============================================================
+
+============================================================
+Comparing d4
+============================================================
+Original file: C:\Users\shiva\Documents\VScode projects\PIM\original\X\d4.h5
+Filtered file: C:\Users\shiva\Documents\VScode projects\PIM\filtered\X\d4_pim.h5
+
+File Size Comparison:
+  Original file size: 38,844,318 bytes (37933.90 KB)
+  Filtered file size: 27,796,860 bytes (27145.37 KB)
+  Size reduction: 11,047,458 bytes (10788.53 KB, 28.44%)
+
+Data Reduction:
+  Data points reduced: 42,945,845
+  Data size reduced: 280,196,362 bytes (273629.26 KB)
+  Reduction ratio: 0.1359 (13.59% of original)
+  Reduction percentage: 86.41%
+
+============================================================
+Reading Meta File for annotation 4
+============================================================
+Meta file: C:\Users\shiva\Documents\VScode projects\PIM\analysis\d4_meta.txt
+
+Rare Gene Information:
+  Rare genes retained: 3,660
+  Noise genes: 2,580
+  Housekeeping genes: 0
+
+Variance Statistics:
+  Min variance: 0.000000
+  Max variance: 21025.951172
+  Mean variance: 1.831891
+  Genes with zero variance: 10,796
+  Unique variance values: 19,449
+
+============================================================
+Comparing H5 files for d4
+============================================================
+
+Analyzing: C:\Users\shiva\Documents\VScode projects\PIM\original\X\d4.h5
+Comparing with: C:\Users\shiva\Documents\VScode projects\PIM\filtered\X\d4_pim.h5
+
+File Size Comparison:
+  Original size: 38,844,318 bytes (37933.90 KB)
+  Filtered size: 27,796,860 bytes (27145.37 KB)
+  Size reduction: 11,047,458 bytes (10788.53 KB, 28.44%)
+
+Data Reduction:
+  Data points reduced: 42,945,845
+  Data size reduced: 280,196,362 bytes (273629.26 KB)
+  Reduction ratio: 0.1359 (13.59% of original)
+  Reduction percentage: 86.41%
+
+Dataset Comparison:
+  matrix/features/genome: (134920,) -> (3660,), reduction: 131,260 (2.71%)
+  matrix/features/name: (134920,) -> (3660,), reduction: 131,260 (2.71%)
+  matrix/barcodes: (2711,) -> (2711,), reduction: 0 (100.00%)
+  matrix/data: (24511186,) -> (3367770,), reduction: 21,143,416 (13.74%)
+  matrix/features/feature_type: (134920,) -> (3660,), reduction: 131,260 (2.71%)
+  matrix/features/id: (134920,) -> (3660,), reduction: 131,260 (2.71%)
+  matrix/indptr: (2712,) -> (3661,), reduction: -949 (134.99%)
+  matrix/indices: (24511186,) -> (3367770,), reduction: 21,143,416 (13.74%)
+  matrix/shape: (2,) -> (2,), reduction: 0 (100.00%)
+
+============================================================
+Analysis completed at 2025-11-28 19:41:32
+============================================================
+
+============================================================
+Annotation Analysis - d4
+Timestamp: 2025-11-29 14:25:12
+============================================================
+
+Meta file: C:\Users\shiva\Documents\VScode projects\PIM\analysis\d4_meta.txt
+
+Rare Gene Information:
+  Rare genes retained: 3,660
+  Noise genes: 2,580
+  Housekeeping genes: 0
+
+Variance Statistics:
+  Min variance: 0.000000
+  Max variance: 21025.951172
+  Mean variance: 1.831891
+  Genes with zero variance: 10,796
+  Unique variance values: 19,449
+
+============================================================
+Analysis completed at 2025-11-29 14:25:12
+============================================================

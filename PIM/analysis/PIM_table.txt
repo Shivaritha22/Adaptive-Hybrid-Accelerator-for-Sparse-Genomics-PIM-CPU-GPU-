@@ -1,0 +1,17 @@
+PIM Reduction Summary:
+
+table 1
+Dataset Sparsity Summary:
+Dataset	Dimensions	NNZ	Total Elements	Density	Sparsity
+d2	33,696 × 9,263	26,407,826	312,123,648	8.46%	91.54%
+d3	38,606 × 6,704	14,971,913	258,814,624	5.78%	94.22%
+d4	134,920 × 2,711	24,511,186	365,978,120	6.70%	93.30%
+d5	36,706 × 2,979	16,028,697	109,428,174	14.64%	85.36%
+
+
+table 2
+Dataset	Dimensions	Data Points Reduced	Data Reduction %	File Size Change	NNZ Reduced	NNZ Reduction %
+d2	33,696 × 9,263	26,003,276	49.09%	-189.94%	12,938,039	49.01%
+d3	38,606 × 6,704	12,768,074	42.40%	-214.81%	6,313,125	42.17%
+d4	134,920 × 2,711	42,945,845	86.41%	28.44%	21,143,416	86.26%
+d5	36,706 × 2,979	14,955,715	46.17%	-219.08%	7,320,338	45.67%

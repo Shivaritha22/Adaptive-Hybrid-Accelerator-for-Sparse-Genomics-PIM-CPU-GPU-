@@ -1,0 +1,9 @@
+PIM/filtered/X/d2.h5
+scRNA/datasetX/d2.h5
+scRNA/**/*.h5
+PIM/**/*.h5
+sanitycheck/*.mtx
+PIM/**/*.h5
+scRNA/**/*.h5
+sanitycheck/*.mtx
+w generation/*.h5

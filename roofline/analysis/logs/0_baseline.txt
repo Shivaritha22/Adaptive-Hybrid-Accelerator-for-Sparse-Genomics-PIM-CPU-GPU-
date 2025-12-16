@@ -1,0 +1,8 @@
+rows_X: 4, cols_X: 4, nnz_X: 7
+disk to memory time: X load: 0.673ms
+rows_W: 4, cols_W: 32
+disk to memory time: W load: 0.248ms
+spmm compute time: 0.000ms
+spmm nnz: 7
+spmm flops: 448.000
+spmm bytes: 1612.000
